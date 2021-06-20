@@ -1,5 +1,5 @@
 {
-  "name": "Crazy Button Demo SPA",
+  "name": "ModuluxVue",
   "description": "(send an email to taiwop3@gmail.com to view full modulux package)",
   "version": "1.0.0",
   "author": "Peter Taiwo <taiwop3@gmail.com>",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "axios": "^0.18.1",
+    "crazy-buttons-js": "^1.0.2",
     "custombox": "^4.0.3",
     "dotenv": "^10.0.0",
     "env-var": "^7.0.1",

@@ -5,7 +5,7 @@ import VueCookie from 'vue-cookie';
 import Loader from '@/components/Loader';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import CrazyButton from '@/plugins/CrazyButton';
+import CrazyButton from 'crazy-buttons-js';
 import {AuthClient} from '@/api-clients/AuthClient';
 import {beforeRoute} from './middlewares/AuthMiddleware';
 
