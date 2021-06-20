@@ -1,6 +1,6 @@
-# Modulux
+# Crazy Button Demo SPA
 
-> Modulux Vue
+>
 
 ## Build Setup
 
