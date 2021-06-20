@@ -4,10 +4,13 @@ import {Store} from './Store';
 import VueCookie from 'vue-cookie';
 import Loader from '@/components/Loader';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import CrazyButton from '@/plugins/CrazyButton';
 import {AuthClient} from '@/api-clients/AuthClient';
 import {beforeRoute} from './middlewares/AuthMiddleware';
 
 Vue.use(VueCookie);
+Vue.use(CrazyButton);
 
 window.jQuery = window.$ = require('jquery');
 
@@ -17,7 +20,8 @@ new Vue({
 	router: Router,
 	components: {
 		Loader,
-		'v-header': Header
+		'v-header': Header,
+		'v-footer': Footer
 	},
 	mounted() {
 

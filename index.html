@@ -9,13 +9,12 @@
 </head>
 <body class='app-body'>
 	<div class='app-zcirfeu52g app-body-ui bg-light'>
-		<div class='app-e85s5178e app-ui-default' v-if='$store.state.auth.requestedHandshake == true'>
+		<div class='app-ui-default overflow-auto' v-if='$store.state.auth.requestedHandshake == true'>
 			<router-view v-if='$store.state.auth.authenticated == false'></router-view>
 			<div v-else>
 				<v-header></v-header>
-				<div class='app-container'>
-					<router-view :key='$route.fullPath'></router-view>
-				</div>
+				<router-view :key='$route.fullPath'></router-view>
+				<v-footer></v-footer>
 			</div>
 		</div>
 		<div class='app-e6zn5pjf2l' v-else>

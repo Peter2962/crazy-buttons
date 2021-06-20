@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+import Demo from './views/Demo';
 import Login from './views/auth/Login';
 import Register from './views/auth/Register';
 import Home from './views/Home';
@@ -23,6 +24,11 @@ export default new Router({
 			name: 'auth.register',
 			path: '/register',
 			component: Register
+		},
+		{
+			name: 'demo',
+			path: '/demo',
+			component: Demo
 		}
 	]
 });

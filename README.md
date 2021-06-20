@@ -1,6 +1,6 @@
 # Modulux
 
-> Modulux Frontend
+> Modulux Vue
 
 ## Build Setup
 
